@@ -1,7 +1,7 @@
 name: arunkg
 replicas: 1
 
-image: nginx
+image: library/nginx
 #dockercfg: <+artifact.imagePullSecret>
 
 createNamespace: true
